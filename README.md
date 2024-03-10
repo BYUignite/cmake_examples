@@ -17,9 +17,9 @@ make install
 
 For examples that use installed libraries, tell CMake where to look for them by setting evironment variable ```CMAKE_PREFIX_PATH```: 
 ```
-export CMAKE_PREFIX_PATH="$CMAKE_PREFIX_PATH:/Users/dol4/Desktop/cmake_examples/usr/example_3"
-export CMAKE_PREFIX_PATH="$CMAKE_PREFIX_PATH:/Users/dol4/Desktop/cmake_examples/usr/example_4"
-export CMAKE_PREFIX_PATH="$CMAKE_PREFIX_PATH:/Users/dol4/Desktop/cmake_examples/usr/example_7"
+export CMAKE_PREFIX_PATH="$CMAKE_PREFIX_PATH:/path/to/cmake_examples/usr/example_3"
+export CMAKE_PREFIX_PATH="$CMAKE_PREFIX_PATH:/path/to/cmake_examples/usr/example_4"
+export CMAKE_PREFIX_PATH="$CMAKE_PREFIX_PATH:/path/to/cmake_examples/usr/example_7"
 ```
 
 #### Example 1
